@@ -14,7 +14,7 @@ public class ScheduledTask {
 
         System.out.println("Current Time: " + java.time.LocalTime.now() + " | Elapsed Time: " + elapsedTime + "s");
 
-        if (elapsedTime >= 25) { // Stop after 25 seconds
+        if (elapsedTime >= 20) { // Stop after 25 seconds
             System.out.println("Stopping execution after 25 seconds.");
             System.exit(0); // Terminates the application
         }
